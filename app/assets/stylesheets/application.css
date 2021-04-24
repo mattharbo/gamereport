@@ -153,12 +153,20 @@
     /* *********** */
 
     .benches{
-      color:#E0E0E0;
-      background-color: #F9F9F9;
-      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin: 5px 9px 0 9px;
-      text-align: center;
-      padding: 3px 0;
+      padding: 5px 0;
       font-weight: 600;
+      border-radius: 4px;
+      background-color: #F9F9F9 !important;
+    }
+
+    .benches > p{
+      margin: 0;
+      background: -webkit-linear-gradient(238.82deg, #2CB2FF 6.02%, #F555DB 95.62%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
