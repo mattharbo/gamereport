@@ -26,12 +26,18 @@
     font-size: 12px;
     font-weight: 500;
     margin:0;
-    background-color: #000;
+    background-color: #171717;
     color:#f5f5f5;
   }
 
   h1, h2, h3, ul{
     margin:0;
+  }
+
+  .gradient{
+    background: -webkit-linear-gradient(238.82deg, #2CB2FF 6.02%, #F555DB 95.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .container{
@@ -51,7 +57,7 @@
       justify-content:center;
       align-items: center;
       font-weight: 800;
-      padding: 10px 0 10px 0;
+      padding: 10px 0 7px 0;
       font-size: 21px;
     }
 
@@ -83,6 +89,22 @@
       display: flex;
       justify-content: center;
       align-items: flex-start;
+    }
+
+    .formations{
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+      margin: 0 9px 9px 9px;
+      padding: 5px 0;
+      background-color: #1F1F1F !important;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .homeformation, .awayformation {
+      width: 75px;
+      text-align: center;
     }
 
     .leftcolumn{
@@ -170,8 +192,5 @@
 
     .benches > p{
       margin: 0;
-      background: -webkit-linear-gradient(238.82deg, #2CB2FF 6.02%, #F555DB 95.62%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
     }
   }
